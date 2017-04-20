@@ -53,6 +53,10 @@ async def sqrt(num):
 	return await shibazo.say(answer)
 
 @shibazo.command()
+async def panic():
+	shibazo.logout()
+
+@shibazo.command()
 async def cleanse():
 	say = shibazo.get_server(280821918414929930)
 	return await shibazo.say(say)
