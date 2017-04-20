@@ -52,4 +52,5 @@ async def sqrt(num):
 	answer = math.sqrt(int(num))
 	return await shibazo.say(answer)
 
+	
 shibazo.run("MzAzMzU3NzcyMDg5NjU1Mjk2.C9efrA.BRrpp-Mq_wIdIL43E0srOHdxCBg")
