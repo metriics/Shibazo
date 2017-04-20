@@ -52,14 +52,4 @@ async def sqrt(num):
 	answer = math.sqrt(int(num))
 	return await shibazo.say(answer)
 
-@shibazo.command()
-async def cleanse():
-	say = shibazo.get_server(280821918414929930)
-	return await shibazo.say(say)
-	# msgList = []
-	# for i in range(100):
-	# 	msgList[i] = shibazo.get_message(channel,i)
-	# return await shibazo.say(msgList)
-
-
 shibazo.run("MzAzMzU3NzcyMDg5NjU1Mjk2.C9efrA.BRrpp-Mq_wIdIL43E0srOHdxCBg")
